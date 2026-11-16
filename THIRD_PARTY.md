@@ -6,6 +6,7 @@
 - ONNX Runtime Web 1.22.0-dev.20250409-89f8206ba4：MIT，包含对应的第三方声明。
 - Xenova/whisper-base ONNX模型：固定版本 `64da57285918e20ea79ea5c88eed7197933abaa8`；转换模型卡声明 Apache-2.0，同时保留原 OpenAI Whisper MIT许可。使用fp32编码器与q8解码器。
 - OpenCC.js 1.4.2：代码MIT、词典数据Apache-2.0，仅用于将转写结果统一为简体，不纠改或补造识别内容。
+- pinyin-pro 3.29.5：MIT，用于本地语音增配中的近音词匹配，许可见 `public/assets/LICENSE-pinyin-pro.txt`。
 - Noto Sans SC 字体子集：SIL Open Font License，见 `public/assets/OFL-NotoSansSC.txt`。优先使用设备已有 PingFang SC，字体文件用于跨平台回退。
 - Heroicons 的声音开启、麦克风开启、发送与删除图标（普通聊天发送采用加粗描边变体）：MIT，见 `public/assets/LICENSE-Heroicons.txt`。
 - 小鹿 IP 视频、图片、眼睛折角表情、其余图标与静态光效：来自用户提供的 Figma 设计，用于本项目还原。
